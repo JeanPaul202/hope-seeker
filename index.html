@@ -71,7 +71,21 @@
 
   <a href="https://www.facebook.com/sharer/sharer.php?u=https://jeanpaul202.github.io/hope-seeker/" class="button" style="background:#3b5998; color:white;">📘 Share on Facebook</a>
 
-  <a href="https://twitter.com/intent/tweet?url=https://jeanpaul202.github.io/hope-seeker/&text=Help%20a%20family%20fighting%20cancer%20and%20homelessness." class="button" style="background:#1DA1F2; color:white;">🐦 Share on Twitter</a>
+  <a href="https://twitter.com/intent/tweet?url=https://jeanpaul202.github.io/hope-seeker/&text=Help%20a%20family%20fighting%20cancer%20and%20homelessness." class="button" style="background:#1DA1F2; color:white;">🐦 Share on Twitter</a> <a href="#" class="button" onclick="copyLink()" style="background:#555; color:white;">📋 Copy Page Link</a>
+<p id="copied" style="color:green; display:none;">Link copied to clipboard!</p>
+
+<script>
+  function copyLink() {
+    const link = "https://jeanpaul202.github.io/hope-seeker/";
+    navigator.clipboard.writeText(link).then(function() {
+      document.getElementById("copied").style.display = "block";
+      setTimeout(() => {
+        document.getElementById("copied").style.display = "none";
+      }, 2000);
+    });
+  }
+</script>
+
 
   <footer>&copy; 2025 Hope Seeker – Built with love</footer>
 </div>
