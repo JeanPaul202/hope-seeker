@@ -67,10 +67,15 @@
     }
   </style>
   <script>
-    function switchLang(lang) {
-      window.location.href = lang + ".html";
-    }
-  </script>
+ function switchLang(lang) {
+  const base = "https://jeanpaul202.github.io/hope-seeker/";
+  if (lang === 'en') {
+    window.location.href = base + "index.html";
+  } else {
+    window.location.href = base + lang + ".html";
+  }
+}
+ ipt>
 </head>
 <body>
   <div class="container">
