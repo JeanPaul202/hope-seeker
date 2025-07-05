@@ -2,98 +2,135 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hope Seeker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hope Seeker - Help Save My Family</title>
   <style>
-    body { font-family: sans-serif; padding: 30px; background: #f6f9fc; color: #333; }
-    .container { max-width: 750px; margin: auto; background: white; padding: 25px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-    h1 { color: #b30000; text-align: center; }
-    h2 { margin-top: 30px; }
-    a.button {
-      display: inline-block;
-      padding: 12px 25px;
-      margin: 10px 5px 0 0;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+      line-height: 1.6;
     }
-    .paypal { background: #0070ba; color: white; }
-    .btc { background: #f7931a; color: white; }
-    footer { text-align: center; margin-top: 50px; font-size: 14px; color: gray; }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    h1, h2 {
+      color: #00509e;
+    }
+    .donate {
+      margin-top: 20px;
+      padding: 15px;
+      background: #e0f7fa;
+      border-left: 5px solid #00796b;
+    }
+    a {
+      color: #00796b;
+    }
+    .share-buttons {
+      margin-top: 30px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .share-buttons a {
+      padding: 10px 15px;
+      background-color: #00509e;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .lang-switcher {
+      margin-top: 20px;
+      text-align: right;
+    }
+    .lang-switcher button {
+      margin-left: 10px;
+      padding: 5px 10px;
+      background-color: #ccc;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .header-image {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
   </style>
+  <script>
+    function switchLang(lang) {
+      window.location.href = lang + ".html";
+    }
+  </script>
 </head>
 <body>
-<div class="container">
+  <div class="container">
+    <div class="lang-switcher">
+      <button onclick="switchLang('en')">English</button>
+      <button onclick="switchLang('rw')">Kinyarwanda</button>
+      <button onclick="switchLang('fr')">Français</button>
+    </div>
 
-  <!-- Cover Image -->
-  <img src="https://raw.githubusercontent.com/JeanPaul202/hope-seeker/main/effbad64-b831-4610-92d3-6d833809c787.png" alt="Hope Image" style="width:100%; max-height: 300px; object-fit: cover; border-radius: 10px; margin-bottom: 20px;">
+    <img src="effbad64-b831-4610-92d3-6d833809c787.png" alt="Hope Image" class="header-image" />
 
-  <h1>Help Save My Family</h1>
+    <h1>15-Year-Old Homeless Boy Caring for His Cancer-Stricken Parents Needs Your Help</h1>
 
-  <p>Dear kind souls around the world,</p>
+    <p>Dear brothers and sisters,<br>
+    Dear mothers and fathers,<br>
+    Dear compassionate souls across the world,</p>
 
-  <p>My name is <strong>John</strong>, a 19-year-old from East Africa. I never thought I’d find myself in a position like this, but here I am—writing this with trembling hands and a heart heavy with sorrow. I hope someone, somewhere, will read this and offer a spark of hope in our darkest time.</p>
+    <p>If you are reading this, I humbly ask you — please, don’t scroll past this message if there’s any way you can help. I believe with all my heart that your kindness can change our lives forever, and I know God sees and rewards every act of love.</p>
 
-  <h2>Our Tragedy</h2>
+    <h2>Who I Am</h2>
+    <p>My name is <strong>Yohani</strong>, a 15-year-old boy from Rwanda. I am the oldest of three children. I’m just a teenager, but I carry responsibilities far beyond my years. Today, I write to you with a heart full of pain, but also with hope — that maybe someone out there will hear our cry and help us survive.</p>
 
-  <p>Both of my parents—my mother Jessica and my father Francisco—are hospitalized, battling advanced stages of cancer. They are the most humble, loving parents anyone could wish for. But now they are lying in pain, fighting for their lives.</p>
+    <h2>My Family Is Falling Apart</h2>
+    <p>Both of my parents — <strong>Jessica</strong> and <strong>Francisco</strong> — are suffering from cancer. Their illnesses have taken everything from us. All of our savings are gone, all borrowed money used up, and we’ve now lost our home. The bank took it away because we could no longer afford to pay back the debts caused by hospital bills.</p>
 
-  <p>Doctors told us that treatment could prolong their lives, but it comes at a cost far beyond anything I can afford. I have already sold everything I owned—my clothes, my bed, even my phone—to try to pay for medication, scans, and transport to the hospital. I borrowed money from local lenders, but the debt grew too big. Because I couldn’t repay the loans, the bank took our only home. We are now homeless.</p>
+    <p>We are now homeless, sleeping wherever we can. Some nights we sleep hungry. Other nights we sleep on the floor, sick and cold.</p>
 
-  <h2>Our Daily Life</h2>
+    <h2>My Siblings Were Expelled from School</h2>
+    <p>Because we can no longer afford tuition, my younger siblings were forced to drop out of school. They don’t understand why their world collapsed. I try to comfort them, but inside, I’m also lost. I’ve become their caretaker, and the burden is heavy.</p>
 
-  <p>I sleep on the streets with my younger siblings. Sometimes, we go for days without eating. My younger brothers and sisters have dropped out of school, and I can’t look them in the eyes without feeling like I’ve failed them.</p>
+    <h2>I’m Only 15, but I Have to Be the Parent</h2>
+    <p>I clean, I cook, I look after my sick parents, and I try to give hope to my younger siblings. I do all this while still being a child myself. There are days when I feel like I’m drowning, and today, I’m reaching out to the world for help — with humility and tears.</p>
 
-  <p>I have no job. I have no hope left—except you.</p>
+    <h2>What I’m Asking For</h2>
+    <p>I am asking for your help to raise <strong>$3,000</strong> to:</p>
+    <ul>
+      <li>Provide medical care for my parents</li>
+      <li>Buy food and basic survival needs for our family</li>
+      <li>Help my siblings return to school</li>
+      <li>Find shelter and a safer place to live</li>
+    </ul>
 
-  <h2>How You Can Help</h2>
+    <div class="donate">
+      <h2>How You Can Help</h2>
+      <p><strong>PayPal:</strong> <a href="https://paypal.me/dimezotest" target="_blank">https://paypal.me/dimezotest</a></p>
+      <p><strong>Bitcoin Wallet:</strong> <a href="https://www.blockchain.com/btc/address/bc1qlq76mxmu03sv07a7g0548xdtck9w8lsn4fzqhq" target="_blank">bc1qlq76mxmu03sv07a7g0548xdtck9w8lsn4fzqhq</a></p>
+      <p><strong>Contact Email:</strong> <a href="mailto:jeanpaulartistl@gmail.com">jeanpaulartistl@gmail.com</a></p>
+    </div>
 
-  <p>I am humbly begging for your kindness. Whatever you can spare—$1, $5, or even $10—can make a difference. Every donation will go directly to:</p>
+    <h2>May God Bless You</h2>
+    <p>To anyone who chooses to help — from the deepest part of my heart, thank you. May God bless you richly for your generosity. One day, I hope I’ll be in a position to give back and help someone else, just as you’re helping us today.</p>
 
-  <ul>
-    <li>Paying for my parents’ cancer treatment and medication</li>
-    <li>Renting a small place so we can sleep with dignity</li>
-    <li>Sending my siblings back to school</li>
-    <li>Buying food and covering basic survival needs</li>
-  </ul>
+    <p><em>With love and hope,<br>Yohani<br>Age 15<br>Homeless, but not hopeless</em></p>
 
-  <!-- Donation Buttons -->
-  <div>
-    <a href="https://paypal.me/dimezotest" class="button paypal" target="_blank">💙 Donate with PayPal</a>
-    <a href="bitcoin:bc1qlq76mxmu03sv07a7g0548xdtck9w8lsn4fzqhq" class="button btc" target="_blank">₿ Donate with Bitcoin</a>
+    <div class="share-buttons">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://jeanpaul202.github.io/hope-seeker/" target="_blank">Share on Facebook</a>
+      <a href="https://wa.me/?text=https://jeanpaul202.github.io/hope-seeker/" target="_blank">Share on WhatsApp</a>
+      <a href="https://twitter.com/intent/tweet?url=https://jeanpaul202.github.io/hope-seeker/&text=Please%20help%20this%2015-year-old%20boy%20save%20his%20family" target="_blank">Share on Twitter</a>
+      <a href="https://www.instagram.com/" target="_blank">Share on Instagram</a>
+    </div>
   </div>
-
-  <h2>Share & Support</h2>
-  <p>If you can’t donate, please help by sharing this page with others 🙏</p>
-
-  <!-- Share Buttons -->
-  <a href="https://wa.me/?text=Please%20support%20this%20family%20in%20crisis:%20https://jeanpaul202.github.io/hope-seeker/" class="button" style="background:#25D366; color:white;">📲 Share on WhatsApp</a>
-
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https://jeanpaul202.github.io/hope-seeker/" class="button" style="background:#3b5998; color:white;">📘 Share on Facebook</a>
-
-  <a href="https://twitter.com/intent/tweet?url=https://jeanpaul202.github.io/hope-seeker/&text=Help%20a%20family%20fighting%20cancer%20and%20homelessness." class="button" style="background:#1DA1F2; color:white;">🐦 Share on Twitter</a> <a href="#" class="button" onclick="copyLink()" style="background:#555; color:white;">📋 Copy Page Link</a>
-<p id="copied" style="color:green; display:none;">Link copied to clipboard!</p>
-
-<script>
-  function copyLink() {
-    const link = "https://jeanpaul202.github.io/hope-seeker/";
-    navigator.clipboard.writeText(link).then(function() {
-      document.getElementById("copied").style.display = "block";
-      setTimeout(() => {
-        document.getElementById("copied").style.display = "none";
-      }, 2000);
-    });
-  }
-</script>  <div style="text-align:center; margin-top: 40px;">
-  <p><strong>🌍 Hindura ururimi:</strong></p>
-  <button onclick="changeLanguage('en')">English</button>
-  <button onclick="changeLanguage('rw')">Ikinyarwanda</button>
-  <button onclick="changeLanguage('fr')">Français</button>
-</div>
-
-
-
-  <footer>&copy; 2025 Hope Seeker – Built with love</footer>
-</div>
 </body>
 </html>
