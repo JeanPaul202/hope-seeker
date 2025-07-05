@@ -67,10 +67,16 @@
     }
   </style>
   <script>
-    function switchLang(lang) {
-      window.location.href = lang + ".html";
+  function switchLang(lang) {
+    if (lang === 'en') {
+      window.location.href = 'index.html';
+    } else {
+      window.location.href = lang + '.html';
     }
-  </script>
+  }
+</script>
+
+  
 </head>
 <body>
   <div class="container">
